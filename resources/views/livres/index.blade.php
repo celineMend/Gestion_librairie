@@ -56,9 +56,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#">Livres</a>
                 </li>
-                {{-- <li class="nav-item">
+                <li class="nav-item">
                     <a class="nav-link" href="{{ route('categories.index') }}">Catégories</a>
-                </li> --}}
+                </li>
             </ul>
             {{-- <div class="d-flex align-items-center">
                 @auth
@@ -123,7 +123,7 @@
                 </div>
             @endif
 
-          
+
                 <a href="{{ route('livres.ajouter') }}" class="btn btn-primary mb-3">Ajouter un Livre</a>
 
 
